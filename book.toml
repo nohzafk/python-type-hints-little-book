@@ -1,0 +1,16 @@
+[book]
+authors = ["nohz.afk"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Little book about Ptyhon type hints"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output]
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
