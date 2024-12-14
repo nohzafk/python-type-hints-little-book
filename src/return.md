@@ -79,7 +79,7 @@ Let's visualize a more complex type hierarchy:
 ```mermaid
 flowchart TD
     A[Function Input] --> B[Process]
-    B -->|Case 1| C[Dict[str, List[int]]]
+    B -->|Case 1| C["Dict[str, List[int]]"]
     B -->|Case 2| D[None]
     C --> E[Return Value]
     D --> E

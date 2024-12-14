@@ -137,7 +137,7 @@ Here's a visual representation of how type aliases can improve code organization
 │                     UserRecord = Dict[str, List[Tuple[int, str]]]      │
 │                                     ↓                                  │
 │                              UserRecord                                │
-│                           ↙            ↘                            │
+│                           ↙            ↘                               │
 │                    function_1()    function_2()                        │
 '────────────────────────────────────────────────────────────────────────'
 ```
